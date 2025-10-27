@@ -83,3 +83,12 @@
 
 /* Factory test keys */
 #define FN_KEY2 MO(4)
+
+/* Tapping */
+#define TAPPING_TERM 150
+#define RETRO_TAPPING
+
+/* Modkeys */
+#define IGNORE_MOD_TAP_INTERRUPT
+#define PERMISSIVE_HOLD
+#undef PREVENT_STUCK_MODIFIERS
