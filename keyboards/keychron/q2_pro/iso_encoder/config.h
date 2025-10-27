@@ -53,3 +53,21 @@
 #    define CKLED2001_CURRENT_TUNE \
         { 0x40, 0x40, 0x40, 0x40, 0x40, 0x40, 0x40, 0x40, 0x40, 0x40, 0x40, 0x40 }
 #endif
+
+/* Mouse key speed and acceleration. */
+#undef MOUSEKEY_DELAY
+#define MOUSEKEY_DELAY              0
+
+#undef MOUSEKEY_INTERVAL
+#define MOUSEKEY_INTERVAL           16
+
+#undef MOUSEKEY_MAX_SPEED
+#define MOUSEKEY_MAX_SPEED          6
+#define MOUSEKEY_TIME_TO_MAX        64
+
+/* Mouse wheel speed and acceleration. */
+#undef MOUSEKEY_WHEEL_DELAY
+#define MOUSEKEY_WHEEL_DELAY        0
+
+#undef MOUSEKEY_WHEEL_TIME_TO_MAX
+#define MOUSEKEY_WHEEL_TIME_TO_MAX 20
